@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#rectangle {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    transition: all 0.5s ease-in;
+}
+
+button {
+    padding: 10px 50px;
+
+}
+
+/* js  */
+
+.translate1 {
+    border-radius: 50%;
+}
+
+.translate2 {
+    translate: 11rem;
+}
+
+.translate3 {
+    translate: -11rem;
+}
+
+
+/* js end  */

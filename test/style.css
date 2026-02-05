@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cir-body{
+    width: 400px;
+    height: 200px;
+    background: white;
+    border-radius: 100px;
+}
+#cir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: blue;
+    transition: all 0.5s ease;
+}
+
+.translate-style{
+    translate: 12rem;
+}

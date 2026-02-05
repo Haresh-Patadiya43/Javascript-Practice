@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inline Event</h1>
+    <button onclick="alert('welcome')">gretting</button>
+    <button ondblclick="alert('double welcome')">double gretting</button>
+    <button onmouseover="alert('hover welcome')">Hover gretting</button>
+    <br>
+    <h1>Dom Event handling</h1>
+    <button id="btn">gretting</button>
+    <button id="btn1">hover gretting</button>
+    <br>
+    <h1>Add Eventlistner Event</h1>
+    <button id="btn2">gretting</button>
+    <button id="btn3">gretting</button>
+
+
+    <script>
+        //dom event
+        document.getElementById('btn').onclick = function(){
+            alert('welcome');
+        }
+        document.getElementById('btn1').onmouseover = function(){
+            alert('hover welcome');
+        }
+
+        //eventlistner event
+        document.getElementById('btn2').addEventListener('click', function(){
+            alert('welcome');
+        });
+        document.getElementById('btn3').addEventListener('mouseover', function(){
+            alert('welcome');
+        });
+    </script>
+</body>
+</html>

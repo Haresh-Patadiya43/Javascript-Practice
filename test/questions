@@ -1,0 +1,60 @@
+// Types of variables 
+// Types of Data types 
+// Concination of string and number 
+
+// Type of operaters 
+// Types of Condition statements
+
+// Function 
+// Function expression 
+// Anonymous Function 
+// IIFE Function 
+// Function with default parameters 
+// Arrow function 
+
+// Array construction 
+// Array literal
+// Array access element
+// Array modify element
+// Array length
+// Array all methods 
+
+// String Length
+//use of single quotes('') in string
+//use of double quotes("") in string
+//use of backticks(``) in string
+// Escape Character in String
+// Escape Character in String using backslash(\)
+// Multi-line String using backslash(\)(\n)
+// String Methods - toUpperCase() and toLowerCase()
+//use of indexof() and lastindexof() method in string
+//string into array
+//search in string
+
+//use of Math.round()
+//use of Math.ceil()
+//use of Math.floor()
+//use of Math.trunc()
+//use of Math.pow()
+//generating random number between 1 to 10
+//generating random number without decimal 1 to 100
+
+
+//date and time methodes
+// use of Date() 
+//use of Date(year,month)
+//use of Date(year,month,day)
+//use of Date(year,month,day,houre)
+//use of Date(year,month,day,houre,min)
+//use of Date(year,month,day,houre,min,sec)
+//use of Date(year,month,day,houre,min,sec,ms)
+// to get year,month,date,day
+// to set or change year,month,date
+
+// js time methodes 
+//this is get() method in time
+//this is set() method in time ,set houre, set min, set sec, set millisec
+
+// setTimeout = (this settime call function one time only)
+//setInterval = (this setinterval call function every 1 sec again and again)
+//cleanInterval (this function is use to stop setintreval , after 5 sec function will stop)
