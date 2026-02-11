@@ -58,3 +58,13 @@
 // setTimeout = (this settime call function one time only)
 //setInterval = (this setinterval call function every 1 sec again and again)
 //cleanInterval (this function is use to stop setintreval , after 5 sec function will stop)
+
+
+
+
+// object question
+// create object
+// add property in object or change value of property
+// how to call function in object , using method
+// use of dynamic key in object
+// real world example of object
